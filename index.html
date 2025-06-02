@@ -6,11 +6,19 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h2>YouTube 라이트 뷰어</h2>
-  <input id="yt-input" type="text" placeholder="유튜브 URL 또는 영상ID 입력"/>
-  <button id="load-btn">불러오기</button>
-  <div id="info"></div>
-  <div id="player"></div>
+  <div id="container">
+    <div id="main">
+      <h2>YouTube 라이트 뷰어</h2>
+      <input id="yt-input" type="text" placeholder="유튜브 URL 또는 영상ID 입력"/>
+      <button id="load-btn">불러오기</button>
+      <div id="info"></div>
+      <div id="player"></div>
+    </div>
+    <div id="console-area">
+      <h4>콘솔 로그</h4>
+      <pre id="console-log"></pre>
+    </div>
+  </div>
   <script src="main.js"></script>
 </body>
 </html>
