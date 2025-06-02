@@ -1,3 +1,5 @@
+/debug
+document.body.insertAdjacentHTML('beforeend', '<div style="color:red">main.js loaded</div>');
 // 콘솔 로그를 웹에도 출력하는 기능 (console hijack)
 (function setupWebConsole() {
   const logElem = document.getElementById('console-log');
